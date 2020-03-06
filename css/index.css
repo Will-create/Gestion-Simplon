@@ -1,6 +1,10 @@
 body{
 	background-color: #F1F8F6;
 }
+@keyframes ani1 {
+  from{position: relative;bottom: 100%;}
+  to{position: relative;bottom: 0;}
+}
 
 .container{
 	margin-top:5vh;
@@ -34,6 +38,12 @@ body{
     height: 50px;
 }
 
+#global{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+}
 .navbar{
 	background-color: #b50d0d;
 }
@@ -46,6 +56,10 @@ body{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+.fils{
+	width: 100%;
+	height: auto;
 }
 .menu-nav a{
 	color: #000; 
