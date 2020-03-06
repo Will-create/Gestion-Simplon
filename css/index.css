@@ -25,7 +25,7 @@ body{
 	align-items: center;
 	width: 100%;
 	background-color: #b50d0d;
-	height: 8vh;
+	height: 4vh;
 	margin: 30px 0px 10px 0px;
 }
 
@@ -86,6 +86,33 @@ body{
 	color: white;
 }
 
+ /*Css partie liste des tuteurs*/ 
+.stable{
+	text-align: center;
+}
+
+
+.stable1{
+	
+	background-color: #b50d0d;
+	color: white;
+	text-align: center;
+}
+
+.sbouton1{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.sbouton2{
+	margin-right: 10px;
+	padding: 0.5em;
+	color: white;
+	background-color: #b50d0d;
+
+
+}
+
 @media screen and (max-width:990px){
 	.menu-nav{
 	display: flex;
@@ -99,8 +126,8 @@ body{
 	font-size: 18px;
 }
 
-#foot{
-	font-size: 20px;
+#sfoot{
+	font-size: 5px;
 
 }
 }

@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/liste_apprenants.css">
     <title>Accueil-Gestion-Simplon</title>
 </head>
 <body>
@@ -73,7 +72,7 @@
 <button type="button" class="btn btn-danger sbouton2">Nouveau</button>
 </div>
 <div id="footer">
-	<h4 style="color:white;" id="sfoot">COPYRIGHT SIMPLON 2020</h4>
+	<h4 style="color:white;">COPYRIGHT SIMPLON 2020</h4>
 </div>
 </div>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
