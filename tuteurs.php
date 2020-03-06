@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/tuteurs.css">
     <title>Accueil-Gestion-Simplon</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="menu-nav">
-      <li id="actif"><a href="#">ACCUEIL</a></li>
+      <li ><a href="#">ACCUEIL</a></li>
       <li ><a href="#">APPRENANTS</a></li>
-      <li><a href="#">TUTEURS</a></li>
+      <li id="actif"><a href="#">TUTEURS</a></li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -29,7 +30,29 @@
 </nav>
 <div id="global">
   <div class="fils" id="liste"></div>
-  <div class="fils" id="formulaire"></div>
+  <div class="fils" id="formulaire">
+
+  <h1 id="bienvenu">Formulaire des tuteurs</h1>
+
+<form>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prénom">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Profession">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contact">
+  </div>
+</form>
+<button type="button" class="btn btn-danger boutton">Annuler</button>
+<button type="button" class="btn btn-danger boutton">Ajouter</button>
+
+
+  </div>
    <div class="fils" id="details"></div>
 </div>
 <div id="footer">
