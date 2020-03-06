@@ -31,14 +31,74 @@
 
 <div id="global">
   <div class="fils" id="liste"></div>
-  <div class="fils" id="formulaire"></div>
+  <div class="fils" id="formulaire">
+  <h1 id="bienvenu">Formulaire Apprenants</h1>
+<form class="bg">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="input">Nom</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="input">Prenoms</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputdate">Date de naissance</label>
+      <input type="date" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Ville d'origine</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="input">Formation</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="input">Etablissement</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="input">Contact</label>
+      <input type="tel" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputState">Tuteur</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group row-md-6">
+      <label for="input">Photo</label>
+      <div id="photo"><img id="profil" class="iconapp" src="images/icon.jpg"></div>
+    </div> 
+  </div>
+  <input type="file" class="form-controlb" id="inputPassword4" onblur="afficherPhoto(this,'profil')">
+  <div class="buttonap">
+    <button type="button" class="btn btn-danger">Ajouter</button>
+    <button type="button" class="btn btn-danger">Annuler</button>
+</div>
+  
+
+</form>
+  </div>
    <div class="fils" id="details"></div>
 </div>
 <div id="footer">
 	<h4 style="color:white;">COPYRIGHT SIMPLON 2020</h4>
 </div>
 </div>
-<script type="text/javascript" src="js/navigateur.js"></script>
+<!-- <script type="text/javascript" src="js/navigateur.js"></script> -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/details.js"></script>
 </body>
