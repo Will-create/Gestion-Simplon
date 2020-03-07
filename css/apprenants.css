@@ -31,6 +31,7 @@
 	background-clip: padding-box;
 }
 .buttonap{
+  margin: 20px 0px 20px 0px;
 	display: flex;
 	justify-content: flex-end;
 
@@ -53,4 +54,8 @@
 .iconapp{
 	width: 200px;
 	height: 200px;
+}
+.btn-valid{
+  float: right;
+  margin: 20px 0px 20px 20px;
 }

@@ -39,10 +39,12 @@ body{
 }
 
 #global{
+  margin:15px 0px 15px 0px;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	height: auto;
+	overflow: hidden;
 }
 .navbar{
 	background-color: #b50d0d;
@@ -58,8 +60,12 @@ body{
 	padding: 0;
 }
 .fils{
+  display:flex;
+  flex-direction: column;
 	width: 100%;
 	height: auto;
+	position: relative;
+	animation: ani1 1s ease-out;
 }
 .menu-nav a{
 	color: #000; 
@@ -111,4 +117,5 @@ body{
 
 #bienvenu{
 	font-size: 18px;
+}
 }

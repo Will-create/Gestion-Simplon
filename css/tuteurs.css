@@ -1,10 +1,11 @@
-<<<<<<< HEAD
+
 .boutton{
-    float: right;
+    display:flex;
+    align-content:flex-end;
     background-color:#b50d0d;
     margin: 20px 0px 20px 20px;
 }
-=======
+
 
  /*Css partie liste des tuteurs*/ 
  .stable{
@@ -21,10 +22,13 @@
 
 .sbouton1{
 	display: flex;
-	justify-content: flex-end;
+
+	align-content:flex-end;
 }
 
 .sbouton2{
+  display: flex;
+  align-content:flex-end;
 	margin-right: 10px;
 	padding: 0.5em;
 	color: white;
@@ -37,4 +41,4 @@
     font-family: algerian, Verdana, sans-serif;
     text-align: center;
   }
->>>>>>> origin/Emilie
+

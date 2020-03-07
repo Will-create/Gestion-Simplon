@@ -8,20 +8,20 @@
     <script type="text/javascript" src="js/jquery/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/apprenants.css">
-    <title>Accueil-Gestion-Simplon</title>
+    <title>Apprenants-Gestion-Simplon</title>
 </head>
 <body>
 <div class="container">
 	<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></a>
+    <a class="navbar-brand" href="index.php"><img class="logo" src="images/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="menu-nav">
-      <li id="actif"><a href="#">ACCUEIL</a></li>
-      <li ><a href="#">APPRENANTS</a></li>
-      <li><a href="#">TUTEURS</a></li>
+      <li><a href="index.php">ACCUEIL</a></li>
+      <li id="actif"><a href="apprenants.php">APPRENANTS</a></li>
+      <li><a href="tuteurs.php">TUTEURS</a></li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -30,7 +30,55 @@
 </nav>
 
 <div id="global">
-  <div class="fils" id="liste"></div>
+  <div class="fils" id="liste">
+  <h1 id="bienvenu">Liste des Apprenants</h1>
+<div class="table-responsive-sm">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">N°</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prénom</th>
+      <th scope="col">Date naissance</th>
+      <th scope="col">Ville Origine</th>
+      <th scope="col">Formation</th>
+      <th scope="col">Etablissement</th>
+      <th scope="col">Tuteur</th>
+      <th scope="col">Contact</th>
+      <th scope="col">Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<button type="button" class="btn btn-danger btn-valid">Imprimer</button>
+<button type="button" class="btn btn-danger btn-valid" onclick="afficher('form')">Nouveau</button>
+  </div>
   <div class="fils" id="formulaire">
   <h1 id="bienvenu">Formulaire Apprenants</h1>
 <form class="bg">
@@ -83,10 +131,10 @@
       <div id="photo"><img id="profil" class="iconapp" src="images/icon.jpg"></div>
     </div> 
   </div>
-  <input type="file" class="form-controlb" id="inputPassword4" onblur="afficherPhoto(this,'profil')">
+  <input type="file" class="form-controlb" id="inputPassword4" oninput="afficherPhoto(this,'profil')">
   <div class="buttonap">
     <button type="button" class="btn btn-danger">Ajouter</button>
-    <button type="button" class="btn btn-danger">Annuler</button>
+    <button type="button" class="btn btn-danger" onclick="afficher('liste')">Annuler</button>
 </div>
   
 
@@ -98,7 +146,7 @@
 	<h4 style="color:white;">COPYRIGHT SIMPLON 2020</h4>
 </div>
 </div>
-<!-- <script type="text/javascript" src="js/navigateur.js"></script> -->
+<script type="text/javascript" src="js/navigateur.js"></script> 
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/details.js"></script>
 </body>
