@@ -18,13 +18,13 @@ function affiche(elem){
 function afficher(quoi){
 	cachertout();
 	if(quoi=="list" || quoi=="tableau" || quoi=="tab" || quoi=="liste"){
-glob[0].style="animation: ani1 1s ease-out;";
+glob[0].style="animation: ani1 1s ease-out";
         affiche(glob[0]);
 	}else if (quoi=="formulaire" || quoi=="formulair" || quoi=="form" || quoi=="forme") {
-glob[1].style="animation: ani1 1s ease-out;";
+glob[1].style="animation: ani1 1s ease-out";
 affiche(glob[1]);
 	}else if (quoi=="details" || quoi=="detailles" || quoi=="detailles" || quoi=="detaill") {
-		glob[2].style="animation: ani1 1s ease-out;";
+		glob[2].style="animation: ani1 1s ease-out";
 affiche(glob[2]);
 	}else{
 		var MsgErreur="Argument incorrecte\n '"+quoi+"' n'est pas un argument valid";

@@ -76,13 +76,15 @@
   </tbody>
 </table>
 </div>
-<button type="button" class="btn btn-danger btn-valid">Imprimer</button>
-<button type="button" class="btn btn-danger btn-valid" onclick="afficher('form')">Nouveau</button>
+<div class="buttonap">
+     <button type="button" class="btn btn-danger btn-valid">Imprimer</button>
+     <button type="button" class="btn btn-danger btn-valid" onclick="afficher('formulaire')">Nouveau</button>
+</div>
   </div>
-  <div class="fils" id="formulaire">
+<div class="fils" id="formulaire">
   <h1 id="bienvenu">Formulaire Apprenants</h1>
-<form class="bg">
-  <div class="form-row">
+  <!-- <form>
+    <div class="form-row">
     <div class="form-group col-md-6">
       <label for="input">Nom</label>
       <input type="text" class="form-control" id="inputEmail4">
@@ -127,7 +129,7 @@
   </div>
   <div class="form-row">
     <div class="form-group row-md-6">
-      <label for="input">Photo</label>
+      <label for="input" class="photo-lab">Photo</label>
       <div id="photo"><img id="profil" class="iconapp" src="images/icon.jpg"></div>
     </div> 
   </div>
@@ -135,11 +137,63 @@
   <div class="buttonap">
     <button type="button" class="btn btn-danger">Ajouter</button>
     <button type="button" class="btn btn-danger" onclick="afficher('liste')">Annuler</button>
-</div>
+  </div>
+  
   
 
-</form>
+    </form> -->
+    <form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
   </div>
+</div>
+  </div><br><br>
+  <div class="form-row">
+    <div class="form-group row-md-6">
+      <div id="photo"><img id="profil" class="iconapp" src="images/icon.jpg"></div>
+    </div> 
+  </div>
+  <input type="file" class="form-controlb" id="inputPassword4" oninput="afficherPhoto(this,'profil')">
+  <div class="buttonap">
+    <button type="button" class="btn btn-danger">Ajouter</button>
+    <button type="button" class="btn btn-danger" onclick="afficher('liste')">Annuler</button>
+  </div>
+</form>
+    </div>
    <div class="fils" id="details"></div>
 </div>
 <div id="footer">

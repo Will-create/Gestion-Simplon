@@ -30,10 +30,6 @@
   </div>
 </nav>
 <div id="global">
-
-
-  
-
   <div class="fils" id="liste"> 
   <h1 id="bienvenu" id="p2">Liste des Tuteurs</h1>
 <div class="table-responsive-sm">
@@ -97,8 +93,10 @@
     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Contact">
   </div>
 </form>
-<button type="button" class="btn btn-danger boutton" onclick="afficher('list')">Annuler</button>
-<button type="button" class="btn btn-danger boutton">Ajouter</button>
+<div class="sbouton1"> 
+<button type="button" class="btn btn-danger sbouton2" >Ajouter</button>
+<button type="button" class="btn btn-danger sbouton2"onclick="afficher('list')">Annuler</button>
+</div>
 
 
   </div>

@@ -22,13 +22,12 @@
 
 .sbouton1{
 	display: flex;
-
-	align-content:flex-end;
+	justify-content:flex-end;
 }
 
 .sbouton2{
   display: flex;
-  align-content:flex-end;
+  justify-content:flex-end;
 	margin-right: 10px;
 	padding: 0.5em;
 	color: white;

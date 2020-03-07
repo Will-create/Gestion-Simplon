@@ -67,6 +67,14 @@ body{
 	position: relative;
 	animation: ani1 1s ease-out;
 }
+#formulaire{
+	display:flex;
+    flex-direction: column;
+	width: 100%;
+	height: auto;
+	position: relative;
+	animation: ani1 1s ease-out;
+}
 .menu-nav a{
 	color: #000; 
 	text-decoration: none;
